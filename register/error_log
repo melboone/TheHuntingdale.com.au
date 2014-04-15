@@ -1,0 +1,2 @@
+[23-Jan-2014 12:34:35 UTC] PHP Warning:  include(/includes/header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/deoarece/public_html/43c/register/index.php on line 1
+[23-Jan-2014 12:34:35 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/includes/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/deoarece/public_html/43c/register/index.php on line 1

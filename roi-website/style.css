@@ -1,0 +1,112 @@
+@font-face {
+    font-family: arvil;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/arvil.ttf")
+}
+@font-face {
+    font-family: univers;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/univers.otf")
+}
+html {width:100%;height: 100%;display: table}
+body{font-family:arvil;letter-spacing:2px;background-color:#000;color:#fff;text-transform:uppercase;display: table-row;}
+body > div {display: table-cell;border:25px solid #fff;}
+p {margin: 3% 0}
+.container > div > img:only-child {width: 100%;margin-top:20px;}
+hr {height:4px;background-color:#fff;border:none;margin:5px 0}
+.container {margin:5% auto 50px auto;height:100%;width:540px;position: relative;}
+.container > p {margin-left:0.2em;font-size:2.7em;}
+.inline {display:inline-block;vertical-align:top;font-size:1.4em;text-transform:none;}
+.inline p{font-size:0.6em;margin: 0}
+.footer {margin-top:14%;font-family:univers;}
+.container > p:nth-child(4){font-size:3.29em}
+.small {width: 28%}
+.larger {width: 40%}
+.larger > span {font-weight: bold;}
+.inline.larger > img {width: 100%}
+ol.phpfmg_form{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+ol.phpfmg_form input, ol.phpfmg_form textarea, ol.phpfmg_form select{
+    border-top:0;border-left:0;border-right:0;border-bottom: 1px solid #FFF;background-color: #000;color: #fff;font-size: 1em;}
+
+ol.phpfmg_form li{
+    clear:both;
+    display:block;
+    overflow:hidden;
+	width: 96%
+}
+.form_field, .form_required{
+}
+
+.form_required{
+    margin-right:8px;
+    margin-left:-5px;
+}
+
+.form_submit_block{
+    padding-top: 3px;
+}
+
+.text_box, .text_area, .text_select {width: 400px}
+
+.text_area{
+    height:80px;
+}
+
+.form_error_title{
+    color: red;
+}
+
+.form_error{
+    background-color: #F4F6E5;
+    border: 1px dashed #ff0000;
+    padding: 10px;
+    margin-bottom: 10px;
+    left: 53%;
+    position: absolute;
+}
+
+.form_error_highlight{
+    border-bottom: 1px dashed #ff0000;
+}
+
+div.instruction_error{
+    color: red;
+}
+
+hr.sectionbreak{
+    height:1px;
+    color: #ccc;
+}
+
+#one_entry_msg{
+    background-color: #F4F6E5;
+    border: 1px dashed #ff0000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#frmFormMailContainer input[type="submit"]{
+    padding: 3px 0;
+    font-family: arvil;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+
+}
+
+#frmFormMailContainer input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+.col_label{float:left;font-size:1.3em;letter-spacing:3px}
+.col_field{float:right}
+.field_block{margin:4% auto;width: }
+#frmFormMailContainer > div {font-size: 1.95em;margin:8% 0;}
+#frmFormMailContainer {text-align: center;}

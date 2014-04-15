@@ -1,0 +1,60 @@
+@font-face{	font-family: arvil;
+	font-style: normal;
+	font-weight: normal;
+	src: url("fonts/arvil.ttf");
+	}
+@font-face{	font-family: univers;
+	font-style: normal;
+	font-weight: normal;
+	src: url("fonts/univers.otf");
+	}
+body{	background-color: #000;
+	color: #fff;
+	font-family: 'arvil';
+	text-transform: uppercase;
+	}
+body > a >img:first-child {	display: block;
+	padding: 3% 0;
+	width: 25%;
+	margin: auto;
+	}
+.menu {
+	border-top: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+	font-size: 28px;
+	letter-spacing: 4px;
+	text-align: center;
+	width: 100%;
+ }
+.menu-start-end {
+	display: inline-block;;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: 20%;
+ }
+.menu-start-end:first-child {
+ }
+.menu-start-end:last-child {
+ }
+.menu-middle {
+	display: inline-block;;
+	width: 20%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+ }
+.menu > div:last-of-type {
+	color: #fff;
+ }
+.menu a {
+	color: #D1D3D4;
+	text-decoration: none;
+ }
+
+/* FOOTER */
+.footer {display: table;width: 99.6%;text-align: center;letter-spacing: 0.2em;margin-top: 2%;border-top: 5px solid #fff;padding: 2% 0;bottom:0;}
+.footer-start-end{display: table-cell;width: 33%;font-size: 1.2em;vertical-align: bottom;}
+.footer-start-end > p {padding:0;margin:0.3em 0 0 0}
+.footer-middle {display: table-cell;width: 33%;font-size: 1.5em}
+.footer-start-end > img:first-child{width: 100px}
+.castran{width: 150px;margin-top: 0.4em}
+.footer a {font-size: 1em;background-color: #fff;color: #000; display: inline-block;text-decoration: none;;width: auto;padding:0.1em 1em;}
